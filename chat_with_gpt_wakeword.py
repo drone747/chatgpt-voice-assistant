@@ -20,7 +20,7 @@ def SpeakText(command):
 
 
 # Your OpenAI API key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="YOUR-API-KEY")
 
 SpeakText("Hi, My name is leo")
 time.sleep(1)
